@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/generate_subscription', methods=['POST'])
 def generate_subscription():
     # لینک سابسکریپشن به عنوان الگو
-    subscription_url = "https://my.link.io/sub?host=domain=uuid=/path"
+    subscription_url = "https://github.com/v2rayirani/sublink/blob/main/sub.text"
 
     # دریافت مقادیر از لینک سابسکریپشن
     uuid = request.json.get('uuid')
